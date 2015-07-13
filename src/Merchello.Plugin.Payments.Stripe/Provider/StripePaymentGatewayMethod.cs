@@ -11,6 +11,7 @@ namespace Merchello.Plugin.Payments.Stripe.Provider
     /// <summary>
     /// Represents an Stripe Payment Method
     /// </summary>
+    [GatewayMethodUi("StripePaymentGatewayMethod")]
     [GatewayMethodEditor("Stripe Payment Method Editor", "~/App_Plugins/Merchello.Stripe/paymentmethod.html")]
     public class StripePaymentGatewayMethod : PaymentGatewayMethodBase, IStripePaymentGatewayMethod
     {
