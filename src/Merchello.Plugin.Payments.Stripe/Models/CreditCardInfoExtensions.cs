@@ -14,9 +14,9 @@ namespace Merchello.Plugin.Payments.Stripe.Models
                 { "expireMonth", creditCard.ExpireMonth },
                 { "expireYear", creditCard.ExpireYear },
                 { "cardCode", creditCard.CardCode },
-				{ "stripeCardId", creditCard.StripeCardId },
-				{ "stripeCardToken", creditCard.StripeCardToken },
-				{ "stripeCustomerId", creditCard.StripeCustomerId }
+		{ "stripeCardId", creditCard.StripeCardId },
+		{ "stripeCardToken", creditCard.StripeCardToken },
+		{ "stripeCustomerId", creditCard.StripeCustomerId }
             };
         }
 
@@ -31,8 +31,8 @@ namespace Merchello.Plugin.Payments.Stripe.Models
                 ExpireYear = args.ArgValue("expireYear"),
                 CardCode = args.ArgValue("cardCode"),
                 StripeCardId = args.ArgValue("stripeCardId"),
-				StripeCardToken = args.ArgValue("stripeCardToken"),
-				StripeCustomerId = args.ArgValue("stripeCustomerId")
+		StripeCardToken = args.ArgValue("stripeCardToken"),
+		StripeCustomerId = args.ArgValue("stripeCustomerId")
             };
         }
 
